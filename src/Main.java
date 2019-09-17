@@ -27,6 +27,6 @@ public class Main {
 
         //Expression 5
         System.out.println(((500/5)+(300-100))/75.0);
-        System
+        System.out.println(1+1);
     }
 }
