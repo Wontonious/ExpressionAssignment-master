@@ -1,5 +1,3 @@
-
-
 public class Main {
     public static void main(String args[]){
         /*For the following expressions write out using code step by step how the
@@ -15,6 +13,7 @@ public class Main {
         13
         13
         */
+
         //Expression 1
         System.out.println((9 - 4)+ 10/2 - (4 - 8)/3);
         System.out.println(5+10/2-(4-8)/3);
@@ -51,8 +50,13 @@ public class Main {
 
         //Expression 5
         System.out.println(((14 / 2 + 3) * Math.sin(45) + 2) - Math.pow(Math.sqrt(25), 3));
-        System.out.println((7+3)*Math.sin(45)+2-Math.pow(5, 3));
-        System.out.println(10*Math.sin(45)+2-125);
-
+        System.out.println(((7 + 3) * Math.sin(45) + 2) - Math.pow(Math.sqrt(25), 3));
+        System.out.println((10 * Math.sin(45) + 2) - Math.pow(Math.sqrt(25), 3));
+        System.out.println((10 * 0.8509035245341184 + 2) - Math.pow(Math.sqrt(25), 3));
+        System.out.println((8.509035245341185 + 2) - Math.pow(Math.sqrt(25), 3));
+        System.out.println(10.509035245341185 - Math.pow(Math.sqrt(25), 3));
+        System.out.println(10.509035245341185 - Math.pow(5.0, 3));
+        System.out.println(10.509035245341185 - 125.0);
+        System.out.println(-114.4909647546588);
     }
 }
